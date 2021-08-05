@@ -67,7 +67,6 @@ class Quadratic:
             second_solution = ((-b) - math.sqrt(b ** 2 - 4 * a * c)) / (2 * a)
             return (first_solution, second_solution)
         
-
 def main():
     end = ""
     print("A second-degree polynomial is of the form f(x) = ax^2 + bx + c")
