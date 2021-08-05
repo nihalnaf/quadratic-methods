@@ -100,7 +100,7 @@ def main():
             print("F(x) = " + quadratic.integral())
         if choice == 4:
             x = float(input("Enter the value for x: "))
-            print("f(x) = " + str(quadratic.solveForY(x)))
+            print("f(" + str(x) + ") = " + str(quadratic.solveForY(x)))
         if choice == 5:
             y = float(input("Enter the value for f(x): "))
             print("x = " + str(quadratic.solveForX(y)))
