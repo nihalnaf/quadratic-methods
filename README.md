@@ -1,2 +1,2 @@
 # quadratic-methods
-Takes a quadratic equation and calculates either the roots, derivative, integral, solve for y, and solve for x depending on user choice.
+This project asks the user for a second-degree polynomial, and then it presents 5 options that it asks the user to select from. The options are calculating the roots, calculating the derivative equation, calculating the integral equation, solving for y given x, and solving for x given y. This is a very useful tool that I created for students that I tutor so that they can check their answers when practicing.
