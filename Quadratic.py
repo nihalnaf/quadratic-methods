@@ -89,8 +89,12 @@ def main():
         #print all 5 options using a for loop and index of the list of options
         for i in range(1, len(options) + 1):
             print(str(i) + ". " + options[i - 1])
-
-        choice = int(input("What would you like to calculate for your second-degree polynomial?\n"))
+        #initialize choice so that while loop executes at least once
+        choice = 0
+        #while loop to keep asking user to select option if their option is out of bounds
+        while choice != 1 and choice != 2 and choice != 3 and choice != 4 and choice != 5:            
+                #collect input for user choice
+                choice = int(input("Enter option (1- 5): "))
         #decision structure for which method to execute and display results depending on user choice
         if choice == 1:
             print("x = " + str(quadratic.roots()))
